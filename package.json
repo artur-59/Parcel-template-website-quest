@@ -1,0 +1,26 @@
+{
+  "name": "Parcel-template-website-quest",
+  "version": "1.0.0",
+  "description": "Original repo: https://github.com/StartBootstrap/startbootstrap-3-col-portfolio",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "prebuild": "rm -rf dist",
+    "build": "parcel build index.html --public-url  ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/artur-59/Parcel-template-website-quest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/artur-59/Parcel-template-website-quest/issues"
+  },
+  "homepage": "https://github.com/artur-59/Parcel-template-website-quest#readme",
+  "devDependencies": {
+    "cssnano": "^4.1.10",
+    "parcel-bundler": "^1.12.4"
+  }
+}
